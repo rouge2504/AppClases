@@ -18,8 +18,7 @@ public class Login : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        validacion_Mail = "rouge2504@gmail.com";
-        validacion_Password = "holamundo";
+
 
         validacion = PlayerPrefs.GetInt("Validacion");
         print(validacion);
