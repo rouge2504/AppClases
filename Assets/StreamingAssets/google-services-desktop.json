@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "460586491231",
+    "firebase_url": "https://appclasse-f518c.firebaseio.com",
+    "project_id": "appclasse-f518c",
+    "storage_bucket": "appclasse-f518c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460586491231:android:47278298b7aaec2b7b6aea",
+        "android_client_info": {
+          "package_name": "com.Fundacion.Chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460586491231-085a2b2ae2tf95cmm7uh0omcpc6o62on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTTay1cSAYcTiK__lEePgWUoJ-T3thKGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460586491231-085a2b2ae2tf95cmm7uh0omcpc6o62on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
