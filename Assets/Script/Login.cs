@@ -39,17 +39,28 @@ public class Login : MonoBehaviour
 
     private bool usuarioNuevoLogeado;
 
+    public bool checkUserGet;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        checkUserGet = false;
         FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://appclasse-f518c.firebaseio.com/");
 
-        _user = new Usuario("Rogelio", "Trejo", "rouge2504@gmail.com", "admin12345678");
+        //_user = new Usuario("Javier", "Bernal", "jBernal@gmail.com", "admin12345678");
 
-        RestClient.Put("https://appclasse-f518c.firebaseio.com/"+ _user.nombre + ".json", _user);
+        //RestClient.Put("https://appclasse-f518c.firebaseio.com/"+ _user.nombre + ".json", _user);
 
-        
+        //_user = new Usuario();
+       /* RestClient.Get<Usuario>("https://appclasse-f518c.firebaseio.com/" + "Rogelio" + ".json").Then(response =>
+       {
+           _user = response;
+           checkUserGet = true;
+       });*/
+
+        //print("Apellido del usuario " + _user.apellido);
+
+
         checkText = false;
 
         usuarioNuevoLogeado = false;
@@ -79,6 +90,8 @@ public class Login : MonoBehaviour
         failText.gameObject.SetActive(checkText);
 
         ChequeoNuevoUsuario();
+
+
     }
 
     public void CambiarEscena()
