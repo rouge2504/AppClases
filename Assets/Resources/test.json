@@ -1,0 +1,44 @@
+{
+    "Items": [
+        {
+            "nombre": "Perro de Tindalos",
+            "urlImagen": "/Perro de Tindalos/Tindalos.jpg",
+            "clasificacion": "Raza extraterrestre",
+            "alimentacion": "Carnívoro",
+            "habitad": "Los ángulos del tejido espacio-temporal",
+            "gradoDeInteligencia": "Desconocido: son criaturas inteligentes, pero es difícil determinar hasta qué punto",
+            "sistemaSocial": "Se organizan en manadas",
+            "armas": "Garras, lengua y toxinas"
+        },
+        {
+            "nombre": "Colores surgidos del Espacio",
+            "urlImagen": "/Colores surgidos del Espacio/Colorespacio.jpg",
+            "clasificacion": "Raza extraterrestre",
+            "alimentacion": "Consume energía vital",
+            "habitad": "El espacio, pero puede proliferar en entornos terrestres",
+            "gradoDeInteligencia": "Desconocido",
+            "sistemaSocial": "No tienen organización social",
+            "armas": "Toxinas"
+        },
+        {
+            "nombre": "Dholes",
+            "urlImagen": "/Dholes/Dholes.jpg",
+            "clasificacion": "Monstruos de las Tierras del Sueño.",
+            "alimentacion": "",
+            "habitad": "Montañas y subsuelo de las Tierras del Sueño. También pueden sobrevivir fuera del espacio angular",
+            "gradoDeInteligencia": "Desconocido. Se sabe que pueden cumplir órdenes sencillas",
+            "sistemaSocial": "Desconocido",
+            "armas": "Fauces y baba corrosiva"
+        },
+        {
+            "nombre": "Shoggoth",
+            "urlImagen": "/Shoggoth/Shoggoth.jpg",
+            "clasificacion": "Criaturas autóctonas ancestrales",
+            "alimentacion": "Fundamentalmente carnívoros",
+            "habitad": "Sobre todo lechos marinos, pero se adaptan con facilidad a entornos terrestres",
+            "gradoDeInteligencia": "Infrahumana",
+            "sistemaSocial": "Desconocido",
+            "armas": "Tentáculos y fauces"
+        }
+    ]
+}
